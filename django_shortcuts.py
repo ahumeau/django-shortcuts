@@ -6,8 +6,8 @@ from subprocess import call
 
 ALIASES = {
     # Django
-    'c'  : 'collectstatic',
-    'r'  : 'runserver',
+    'c'  : 'collectstatic --noinput',
+    #'r'  : 'runserver',
     'sd' : 'syncdb',
     'sp' : 'startproject',
     'sa' : 'startapp',
@@ -33,7 +33,7 @@ ALIASES = {
     # Django Extensions
     'sk' : 'generate_secret_key',
     'rdb': 'reset_db',
-    'rp' : 'runserver_plus',
+    'r' : 'runserver_plus',
     'shp': 'shell_plus',
     'url': 'show_urls',
     'gm' : 'graph_models',
