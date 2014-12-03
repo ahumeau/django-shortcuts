@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'django = django_shortcuts:main',
+            'dj = django_shortcuts:main',
         ]
     },
 )
