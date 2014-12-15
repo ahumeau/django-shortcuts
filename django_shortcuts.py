@@ -22,10 +22,9 @@ ALIASES = {
     'csu': 'createsuperuser',
     'cpw': 'changepassword',
 
-    # South
+    # Migrations
     'm': 'migrate',
-    'sm': 'schemamigration',
-    'dm': 'datamigration',
+    'mm': 'makemigrations',
 
     # Haystack
     'ix': 'update_index',
