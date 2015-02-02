@@ -7,7 +7,8 @@ from subprocess import call
 
 ALIASES = {
     # Django
-    'c': 'collectstatic --noinput',
+    'c': 'collectstatic --noinput --link',
+    'cc': 'collectstatic --noinput',
     #'r'  : 'runserver',
     'sd': 'syncdb',
     'sp': 'startproject',
